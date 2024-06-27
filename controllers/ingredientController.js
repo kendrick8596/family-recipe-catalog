@@ -1,4 +1,4 @@
-const ingredient = require("../models/ingredient");
+const ingredient = require("../models/ingredients");
 const asyncHandler = require("express-async-handler");
 
 exports.index = asyncHandler(async (req, res, next) => {
